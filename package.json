@@ -1,0 +1,17 @@
+{
+  "name": "freestyle-auth",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist/passkey.js"
+  ],
+  "scripts": {},
+  "keywords": [],
+  "author": "Jacob Zwang <zwang.jacob@gmail.com>",
+  "devDependencies": {
+    "@simplewebauthn/browser": "^10.0.0",
+    "@simplewebauthn/server": "^10.0.0",
+    "@simplewebauthn/types": "^10.0.0",
+    "freestyle-sh": "^0.1.28"
+  }
+}
