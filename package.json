@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "files": [
-    "./passkey.ts"
+    "./src/passkey.ts"
   ],
   "scripts": {},
   "keywords": [],
