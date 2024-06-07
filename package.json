@@ -11,10 +11,12 @@
   "keywords": [],
   "author": "Jacob Zwang <zwang.jacob@gmail.com>",
   "type": "module",
-  "devDependencies": {
+  "dependencies": {
     "@simplewebauthn/browser": "^10.0.0",
     "@simplewebauthn/server": "^10.0.0",
-    "@simplewebauthn/types": "^10.0.0",
-    "freestyle-sh": "^0.1.28"
+    "@simplewebauthn/types": "^10.0.0"
+  },
+  "peerDependencies": {
+    "freestyle-sh": "*"
   }
 }
