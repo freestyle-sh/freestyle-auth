@@ -2,12 +2,15 @@
   "name": "freestyle-auth",
   "version": "1.0.0",
   "description": "",
-  "files": [
-    "./src/passkey.ts"
-  ],
+  "exports": {
+    "./passkey": {
+      "import": "./src/passkey.ts"
+    }
+  },
   "scripts": {},
   "keywords": [],
   "author": "Jacob Zwang <zwang.jacob@gmail.com>",
+  "type": "module",
   "devDependencies": {
     "@simplewebauthn/browser": "^10.0.0",
     "@simplewebauthn/server": "^10.0.0",
