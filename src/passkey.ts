@@ -273,7 +273,7 @@ export class PasskeyAuthentication implements DefiniteAuthenticatorCS {
       expectedRPID: rpID,
       authenticator: {
         credentialID: passkey.credentialID,
-        credentialPublicKey: passkey.credentialPublicKey,
+        credentialPublicKey: new Uint8Array(Object.values(passkey.credentialPublicKey)),
         counter: passkey.counter,
       },
     });
